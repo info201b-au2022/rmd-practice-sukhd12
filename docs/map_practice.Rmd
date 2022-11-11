@@ -5,8 +5,10 @@ date: "2022-11-11"
 ---
 
 ```{r setup, include=FALSE}
-source("../source/p2_map.R")
-knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(mapdata)
+source("../source/p2_map_practice.R")
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 ```
 
 ## Map

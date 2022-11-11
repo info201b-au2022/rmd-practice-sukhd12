@@ -8,6 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 source("../source/analysis.R")
 knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(mapdata)
 ```
 
 ## Covid Report

@@ -1,0 +1,34 @@
+---
+title: "Map Practice"
+output: html_document
+date: "2022-11-11"
+---
+
+```{r setup, include=FALSE}
+source("../source/p2_map.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Map
+```{r echo=FALSE}
+complete_map
+```
+
+## Purpose
+We included this chart because we noticed that in the dataset, the type of ballot
+box was split into two categories: drop boxes and voting centers. Because of this,
+we thought it would be interesting to see what the distribution of drop boxes and
+voting centers across Washington state were like to see if any obvious patterns arise,
+like whether location affects the type of ballot box is near someone.
+
+## Observations
+After creating this map, something that can be seen quickly is the high number of
+data points near Seattle. Specifically, these data points are blue which represent 
+drop boxes. We can learn from this chart that more drop boxes are put in more densely
+populated areas. However, that means that areas with less people have less options
+for where they can return their ballots. This can make it harder for these populations
+to vote and unfairly affect voting rates. Something else we can learn from this map
+is that there's almost one voting center in each county. However, some counties are
+larger than others which means that if someone in a larger county is interested in
+voting in person, they have to go a further distance than a smaller county. This can
+also limit voting rates in these populations.
